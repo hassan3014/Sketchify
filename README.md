@@ -1,38 +1,62 @@
-# Sketchify
-Sketchify is a Python application built using Tkinter and OpenCV that allows users to create sketches and apply various sketch effects to images. It provides both single sketch and multiple sketch functionalities, offering an intuitive interface for digital sketching.
+# Sketchify: AI Image Sketching Project
 
-# Features
-Single Sketch Mode: Enables users to upload an image and apply various sketch effects like pencil sketch, detail sketch, and charcoal sketch.
-Multiple Sketch Mode: Allows users to process multiple images in a directory and apply a sketch effect to each image, saving the resulting images in a separate folder.
-Upload Images: Supports uploading images from both local files and live camera feed for sketching.
-Cross-platform: Works on Windows, macOS, and Linux platforms.
+Sketchify is an AI project aimed at creating various sketches of an input image using different filters such as median, Laplacian, bilateral, Gaussian, etc. It provides four types of sketches: Charcoal Sketch, Simple Sketch, Detailed Sketch, and Pencil Sketch.
 
-# Installation
-To run Sketchify, ensure you have Python installed on your system. You can install the required dependencies using pip:
+## Table of Contents
 
-pip install opencv-python-headless pillow
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Usage](#usage)
+4. [Installation](#installation)
+5. [Contributing](#contributing)
+6. [License](#license)
 
-Clone the repository to your local machine:
+## Introduction
 
-git clone https: //github.com/hassan3014/Sketchify.git cd sketchify
+Sketchify utilizes advanced image processing techniques and machine learning algorithms to generate sketches from digital images. It offers users the ability to transform their photos into various artistic representations, adding a creative touch to their visual content.
 
-Then, you can run the main application using:
+## Features
 
-python main.py
+- Four types of sketches available: Charcoal Sketch, Simple Sketch, Detailed Sketch, and Pencil Sketch.
+- Customizable parameters for adjusting the intensity, contrast, and other attributes of the sketches.
+- Support for multiple image formats.
+- Easy-to-use interface for both developers and end-users.
 
-# Usage
-Launch the application by running `main.py`.
-Choose between Single Sketch Mode or Multiple Sketch Mode.
-In Single Sketch Mode, either upload an image from your local files or open the camera to capture an image. Then, click on "Sketch the image" to apply various sketch effects.
-In Multiple Sketch Mode, upload a directory containing images (supported formats: PNG, JPEG, JPG). The application will process each image in the directory and save the Sketchified versions in a separate folder.
+## Usage
 
-# Contributing
-Contributions are welcome! If you have any suggestions, bug fixes, or feature requests, feel free to open an issue or submit a pull request.
+To use Sketchify, follow these steps:
 
-# Acknowledgements
-The project uses Tkinter for the graphical user interface.
-Image processing is performed using OpenCV (Open Source Computer Vision Library).
-Image manipulation is done with Pillow, the Python Imaging Library fork.
+1. Install the required dependencies (see [Installation](#installation)).
+2. Load your input image.
+3. Choose the desired sketch type (Charcoal, Simple, Detailed, or Pencil).
+4. Adjust the parameters to achieve the desired sketch effect.
+5. Save or display the generated sketch.
 
-# Contact
-For any questions or inquiries, please contact [hassan.malik1574@gmail.com].
+## Installation
+
+To install Sketchify, follow these steps:
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/your_username/sketchify.git
+   ```
+2. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+3. Run the application:
+   ```
+   python sketchify.py
+   ```
+
+## Contributing
+
+Contributions to Sketchify are welcome! If you have any ideas for improvements or new features, feel free to submit a pull request or open an issue on the GitHub repository.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Feel free to customize this README file according to your project's specific details and requirements.
