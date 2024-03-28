@@ -1,6 +1,6 @@
 # Sketchify: AI Image Sketching Project
 
-Sketchify is an AI project aimed at creating various sketches of an input image using different filters such as median, Laplacian, bilateral, Gaussian, etc. It provides four types of sketches: Charcoal Sketch, Simple Sketch, Detailed Sketch, and Pencil Sketch.
+Sketchify is an AI project aimed at creating various sketches of an input image using different filters such as Median, Laplacian, Bilateral and Gaussian. It provides four types of sketches: Charcoal Sketch, Simple Sketch, Detailed Sketch, and Pencil Sketch.
 
 ## Table of Contents
 
@@ -9,7 +9,7 @@ Sketchify is an AI project aimed at creating various sketches of an input image 
 3. [Usage](#usage)
 4. [Installation](#installation)
 5. [Contributing](#contributing)
-6. [License](#license)
+
 
 ## Introduction
 
@@ -53,10 +53,4 @@ To install Sketchify, follow these steps:
 
 Contributions to Sketchify are welcome! If you have any ideas for improvements or new features, feel free to submit a pull request or open an issue on the GitHub repository.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize this README file according to your project's specific details and requirements.
