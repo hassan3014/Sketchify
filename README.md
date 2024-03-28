@@ -14,7 +14,7 @@ pip install opencv-python-headless pillow
 ```
 Clone the repository to your local machine:
 ```
-git clone https: //github.com/hassan3014/Sketchify.git
+//github.com/hassan3014/Sketchify.git
 ```
 Then, you can run the main application using:
 ```
