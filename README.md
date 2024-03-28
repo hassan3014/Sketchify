@@ -9,10 +9,15 @@ Cross-platform: Works on Windows, macOS, and Linux platforms.
 
 # Installation
 To run Sketchify, ensure you have Python installed on your system. You can install the required dependencies using pip:
+
 pip install opencv-python-headless pillow
+
 Clone the repository to your local machine:
-git clone https: https://github.com/hassan3014/Sketchify.git cd sketchify
+
+git clone https: //github.com/hassan3014/Sketchify.git cd sketchify
+
 Then, you can run the main application using:
+
 python main.py
 
 # Usage
@@ -20,6 +25,7 @@ Launch the application by running `main.py`.
 Choose between Single Sketch Mode or Multiple Sketch Mode.
 In Single Sketch Mode, either upload an image from your local files or open the camera to capture an image. Then, click on "Sketch the image" to apply various sketch effects.
 In Multiple Sketch Mode, upload a directory containing images (supported formats: PNG, JPEG, JPG). The application will process each image in the directory and save the Sketchified versions in a separate folder.
+
 # Contributing
 Contributions are welcome! If you have any suggestions, bug fixes, or feature requests, feel free to open an issue or submit a pull request.
 
