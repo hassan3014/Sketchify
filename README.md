@@ -38,7 +38,7 @@ To install Sketchify, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/hassan3014/sketchify.git
+   git clone https: //github.com/hassan3014/Sketchify.git
    ```
 2. Install dependencies:
    ```
